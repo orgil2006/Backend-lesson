@@ -1,0 +1,13 @@
+{
+  "name": "library-api-sem3",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/app.js",
+    "start": "node src/app.js",
+    "check": "node check-api.mjs"
+  },
+  "dependencies": {
+    "express": "^5.0.0"
+  }
+}
